@@ -1,42 +1,61 @@
-/*
-
-TemplateMo 568 DigiMedia
-
-https://templatemo.com/tm-568-digimedia
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
-pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
-s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
-figure, header, nav, section, article, aside, footer, figcaption {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -67,7 +86,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 .clearfix:after {
-  content: ".";
+  content: '.';
   display: block;
   clear: both;
   visibility: hidden;
@@ -87,13 +106,20 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-ul, li {
+ul,
+li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-header, nav, section, article, aside, footer, hgroup {
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
   display: block;
 }
 
@@ -101,7 +127,8 @@ header, nav, section, article, aside, footer, hgroup {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #fff;
@@ -114,7 +141,12 @@ a {
   text-decoration: none !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -157,7 +189,8 @@ body {
 }
 
 @media (max-width: 991px) {
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
   }
   .mobile-top-fix {
@@ -180,7 +213,6 @@ body {
   position: relative;
   z-index: 2;
 }
-
 
 .section-heading h6 {
   font-size: 15px;
@@ -217,15 +249,13 @@ body {
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .border-first-button a:hover {
   background-color: #fe664e;
   color: #fff !important;
 }
-
-
 
 /* 
 ---------------------------------------------
@@ -250,7 +280,7 @@ header
 .pre-header ul.info li a {
   color: #afafaf;
   font-size: 14px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .pre-header ul.info li a:hover {
@@ -280,7 +310,7 @@ header
   text-align: center;
   border-radius: 50%;
   font-size: 14px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .pre-header ul.social-media li a:hover {
@@ -288,13 +318,13 @@ header
 }
 
 .background-header {
-  background-color: #fff!important;
-  height: 80px!important;
-  position: fixed!important;
+  background-color: #fff !important;
+  height: 80px !important;
+  position: fixed !important;
   top: 0px;
   left: 0px;
   right: 0px;
-  box-shadow: 0px 5px 8px rgba(0,0,0,0.03);
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.03);
 }
 
 .background-header .logo,
@@ -328,16 +358,16 @@ header
 
 .header-area {
   background-color: #fff;
-  box-shadow: 0px 5px 8px rgba(0,0,0,0.03);
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.03);
   position: absolute;
   left: 0px;
   right: 0px;
   z-index: 100;
   height: 100px;
-  -webkit-transition: all .5s ease 0s;
-  -moz-transition: all .5s ease 0s;
-  -o-transition: all .5s ease 0s;
-  transition: all .5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 .header-area .main-nav {
@@ -354,12 +384,12 @@ header
 }
 
 .header-area .main-nav .logo {
-    line-height: 100px;
-    float: left;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+  line-height: 100px;
+  float: left;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .background-header .main-nav .logo {
@@ -393,13 +423,13 @@ header
   padding-left: 40px;
 }
 
-.header-area .main-nav .nav li:last-child a ,
+.header-area .main-nav .nav li:last-child a,
 .background-header .main-nav .nav li:last-child a {
   padding: 0px 20px !important;
   font-weight: 400;
 }
 
-.header-area .main-nav .nav li:last-child a:hover ,
+.header-area .main-nav .nav li:last-child a:hover,
 .background-header .main-nav .nav li:last-child a:hover {
   color: #fff !important;
 }
@@ -422,12 +452,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe664e!important;
+  color: #fe664e !important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe664e!important;
+  color: #fe664e !important;
   opacity: 1;
 }
 
@@ -438,7 +468,7 @@ header
 
 .header-area .main-nav .nav li.submenu:after {
   font-family: FontAwesome;
-  content: "\f107";
+  content: '\f107';
   font-size: 12px;
   color: #2a2a2a;
   position: absolute;
@@ -473,7 +503,7 @@ header
   opacity: 1;
   display: block;
   background: #f7f7f7;
-  color: #2a2a2a!important;
+  color: #2a2a2a !important;
   padding-left: 20px;
   height: 40px;
   line-height: 40px;
@@ -489,7 +519,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fe664e!important;
+  color: #fe664e !important;
   padding-left: 25px;
 }
 
@@ -565,7 +595,7 @@ header
 
 .header-area .main-nav .menu-trigger span:before,
 .header-area .main-nav .menu-trigger span:after {
-  content: "";
+  content: '';
 }
 
 .header-area .main-nav .menu-trigger span {
@@ -621,6 +651,7 @@ header
 }
 
 .header-area.header-sticky {
+  z-index: 9999999999999;
   min-height: 80px;
 }
 
@@ -643,7 +674,7 @@ header
 }
 
 @media (max-width: 992px) {
-  .header-area .main-nav .nav li:last-child  ,
+  .header-area .main-nav .nav li:last-child,
   .background-header .main-nav .nav li:last-child {
     display: none;
   }
@@ -668,7 +699,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fe664e!important;
+    color: #fe664e !important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -680,7 +711,7 @@ header
     height: 100px;
     box-shadow: none;
     text-align: center;
-    box-shadow: 0px 5px 8px rgba(0,0,0,0.03);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.03);
   }
   .header-area .container {
     padding: 0px;
@@ -730,7 +761,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fe664e!important;
+    color: #fe664e !important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -755,12 +786,13 @@ header
     height: auto !important;
   }
   .header-area .main-nav .nav li.submenu:after {
-    color: #3B566E;
+    color: #3b566e;
     right: 25px;
     font-size: 14px;
     top: 15px;
   }
-  .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
+  .header-area .main-nav .nav li.submenu:hover ul,
+  .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
 }
@@ -778,100 +810,98 @@ preloader
 */
 
 .js-preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #fff;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    opacity: 1;
-    visibility: visible;
-    z-index: 9999;
-    -webkit-transition: opacity 0.25s ease;
-    transition: opacity 0.25s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  opacity: 1;
+  visibility: visible;
+  z-index: 9999;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
 }
 
 .js-preloader.loaded {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 @-webkit-keyframes dot {
-    50% {
-        -webkit-transform: translateX(96px);
-        transform: translateX(96px);
-    }
+  50% {
+    -webkit-transform: translateX(96px);
+    transform: translateX(96px);
+  }
 }
 
 @keyframes dot {
-    50% {
-        -webkit-transform: translateX(96px);
-        transform: translateX(96px);
-    }
+  50% {
+    -webkit-transform: translateX(96px);
+    transform: translateX(96px);
+  }
 }
 
 @-webkit-keyframes dots {
-    50% {
-        -webkit-transform: translateX(-31px);
-        transform: translateX(-31px);
-    }
+  50% {
+    -webkit-transform: translateX(-31px);
+    transform: translateX(-31px);
+  }
 }
 
 @keyframes dots {
-    50% {
-        -webkit-transform: translateX(-31px);
-        transform: translateX(-31px);
-    }
+  50% {
+    -webkit-transform: translateX(-31px);
+    transform: translateX(-31px);
+  }
 }
 
 .preloader-inner {
-    position: relative;
-    width: 142px;
-    height: 40px;
-    background: #fff;
+  position: relative;
+  width: 142px;
+  height: 40px;
+  background: #fff;
 }
 
 .preloader-inner .dot {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 12px;
-    left: 15px;
-    background: #fe664e;
-    border-radius: 50%;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    -webkit-animation: dot 2.8s infinite;
-    animation: dot 2.8s infinite;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 15px;
+  background: #fe664e;
+  border-radius: 50%;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-animation: dot 2.8s infinite;
+  animation: dot 2.8s infinite;
 }
 
 .preloader-inner .dots {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    margin-top: 12px;
-    margin-left: 31px;
-    -webkit-animation: dots 2.8s infinite;
-    animation: dots 2.8s infinite;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  margin-top: 12px;
+  margin-left: 31px;
+  -webkit-animation: dots 2.8s infinite;
+  animation: dots 2.8s infinite;
 }
 
 .preloader-inner .dots span {
-    display: block;
-    float: left;
-    width: 16px;
-    height: 16px;
-    margin-left: 16px;
-    background: #fe664e;
-    border-radius: 50%;
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-left: 16px;
+  background: #fe664e;
+  border-radius: 50%;
 }
-
-
 
 /* 
 ---------------------------------------------
@@ -949,8 +979,6 @@ Banner Style
   max-width: 593px;
 }
 
-
-
 /* 
 ---------------------------------------------
 About Style
@@ -994,7 +1022,7 @@ About Style
   position: relative;
 }
 .progress:after {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -1083,73 +1111,73 @@ About Style
 /* This for loop creates the  necessary css animation names 
 Due to the split circle of progress-left and progress right, we must use the animations on each side. 
 */
-.progress[data-percentage="10"] .progress-right .progress-bar {
+.progress[data-percentage='10'] .progress-right .progress-bar {
   animation: loading-1 1.5s linear forwards;
 }
-.progress[data-percentage="10"] .progress-left .progress-bar {
+.progress[data-percentage='10'] .progress-left .progress-bar {
   animation: 0;
 }
 
-.progress[data-percentage="20"] .progress-right .progress-bar {
+.progress[data-percentage='20'] .progress-right .progress-bar {
   animation: loading-2 1.5s linear forwards;
 }
-.progress[data-percentage="20"] .progress-left .progress-bar {
+.progress[data-percentage='20'] .progress-left .progress-bar {
   animation: 0;
 }
 
-.progress[data-percentage="30"] .progress-right .progress-bar {
+.progress[data-percentage='30'] .progress-right .progress-bar {
   animation: loading-3 1.5s linear forwards;
 }
-.progress[data-percentage="30"] .progress-left .progress-bar {
+.progress[data-percentage='30'] .progress-left .progress-bar {
   animation: 0;
 }
 
-.progress[data-percentage="40"] .progress-right .progress-bar {
+.progress[data-percentage='40'] .progress-right .progress-bar {
   animation: loading-4 1.5s linear forwards;
 }
-.progress[data-percentage="40"] .progress-left .progress-bar {
+.progress[data-percentage='40'] .progress-left .progress-bar {
   animation: 0;
 }
 
-.progress[data-percentage="50"] .progress-right .progress-bar {
+.progress[data-percentage='50'] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
-.progress[data-percentage="50"] .progress-left .progress-bar {
+.progress[data-percentage='50'] .progress-left .progress-bar {
   animation: 0;
 }
 
-.progress[data-percentage="60"] .progress-right .progress-bar {
+.progress[data-percentage='60'] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
-.progress[data-percentage="60"] .progress-left .progress-bar {
+.progress[data-percentage='60'] .progress-left .progress-bar {
   animation: loading-1 1.5s linear forwards 1.5s;
 }
 
-.progress[data-percentage="70"] .progress-right .progress-bar {
+.progress[data-percentage='70'] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
-.progress[data-percentage="70"] .progress-left .progress-bar {
+.progress[data-percentage='70'] .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.5s;
 }
 
-.progress[data-percentage="80"] .progress-right .progress-bar {
+.progress[data-percentage='80'] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
-.progress[data-percentage="80"] .progress-left .progress-bar {
+.progress[data-percentage='80'] .progress-left .progress-bar {
   animation: loading-3 1.5s linear forwards 1.5s;
 }
 
-.progress[data-percentage="90"] .progress-right .progress-bar {
+.progress[data-percentage='90'] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
-.progress[data-percentage="90"] .progress-left .progress-bar {
+.progress[data-percentage='90'] .progress-left .progress-bar {
   animation: loading-4 1.5s linear forwards 1.5s;
 }
 
-.progress[data-percentage="100"] .progress-right .progress-bar {
+.progress[data-percentage='100'] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
-.progress[data-percentage="100"] .progress-left .progress-bar {
+.progress[data-percentage='100'] .progress-left .progress-bar {
   animation: loading-5 1.5s linear forwards 1.5s;
 }
 
@@ -1302,7 +1330,7 @@ Services Style
 }
 
 .services .naccs .menu div.active {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
 .services ul.nacc {
@@ -1329,7 +1357,7 @@ Services Style
   z-index: 2;
   opacity: 1;
   transform: translateX(0px);
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   border-radius: 15px;
   padding: 80px 120px 50px 120px;
@@ -1385,8 +1413,6 @@ Services Style
   font-size: 15px;
   font-weight: 400;
 }
-
-
 
 /* 
 ---------------------------------------------
@@ -1461,7 +1487,6 @@ Free Quote
   color: #fff;
 }
 
-
 /* 
 ---------------------------------------------
 Portfolio
@@ -1516,7 +1541,7 @@ Portfolio
 
 .portfolio-item {
   border-radius: 25px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   margin: 15px;
 }
 
@@ -1549,17 +1574,17 @@ Portfolio
   font-weight: 700;
   color: #2a2a2a;
   margin-bottom: 8px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .portfolio-item .down-content span {
   font-size: 15px;
   color: #afafaf;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .our-portfolio .owl-nav {
-  display: inline-block!important;
+  display: inline-block !important;
   position: absolute;
   top: -125px;
   right: 15%;
@@ -1587,7 +1612,6 @@ Portfolio
   color: #fff;
   background-color: #fe664e;
 }
-
 
 /* 
 ---------------------------------------------
@@ -1622,7 +1646,7 @@ Blog
 }
 
 .blog-post {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
 }
 
@@ -1742,7 +1766,6 @@ Blog
   line-height: 30px;
 }
 
-
 /* 
 ---------------------------------------------
 contact
@@ -1761,7 +1784,6 @@ contact
   text-align: center;
   margin-bottom: 80px;
 }
-
 
 form#contact:before {
   background-image: url(../images/contact-top-right-v2.png);
@@ -1795,7 +1817,7 @@ form#contact:after {
 }
 
 form#contact {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   position: relative;
   background-color: #fff;
   border-radius: 23px;
@@ -1820,7 +1842,7 @@ form#contact #map iframe {
 
 .fill-form .icon {
   text-align: center;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 23px;
   padding: 25px 15px;
 }
@@ -1837,7 +1859,7 @@ form#contact #map iframe {
   font-size: 15px;
   font-weight: 500;
   color: #2a2a2a;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .fill-form .icon:hover a {
@@ -1897,13 +1919,13 @@ form#contact button {
   border-radius: 23px;
   letter-spacing: 0.25px;
   border: 1px solid #fe664e;
-  transition: all .3s;
+  transition: all 0.3s;
   outline: none;
 }
 
 form#contact button:hover {
-  background-color: #fe664e!important;
-  color: #fff!important;
+  background-color: #fe664e !important;
+  color: #fff !important;
 }
 
 /* 
@@ -1928,7 +1950,7 @@ footer p {
 
 footer p a {
   color: #fff;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 /* 
@@ -1983,7 +2005,7 @@ responsive
   }
   .about-left-image img {
     margin-right: 0px;
-    margin-bottom: 45px;;
+    margin-bottom: 45px;
   }
   .services .naccs .menu div {
     font-size: 15px;
@@ -2051,7 +2073,7 @@ responsive
   .services ul.nacc li.active {
     padding: 45px;
   }
-  .services .naccs .menu div  {
+  .services .naccs .menu div {
     font-size: 0px;
   }
   .services ul.nacc li .right-image img {
